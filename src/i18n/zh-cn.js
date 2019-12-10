@@ -1,15 +1,15 @@
-(function(jsGrid) {
+(function (jsGrid) {
 
     jsGrid.locales["zh-cn"] = {
         grid: {
             noDataContent: "暂无数据",
             deleteConfirm: "确认删除？",
-            pagerFormat: "页码: {first} {prev} {pages} {next} {last} &nbsp;&nbsp; {pageIndex} / {pageCount}",
+            pagerFormat: "页码: {first} {prev} {pages} {next} {last} &nbsp; 共 {pageIndex} / {pageCount} 页",
             pagePrevText: "上一页",
             pageNextText: "下一页",
-            pageFirstText: "第一页",
-            pageLastText: "最后页",
-            loadMessage: "请稍后...",
+            pageFirstText: "首页",
+            pageLastText: "末页",
+            loadMessage: "请稍侯...",
             invalidMessage: "数据有误！"
         },
 
